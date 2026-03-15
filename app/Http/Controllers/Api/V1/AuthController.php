@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
-use App\Models\User; // СВЯЗЬ: Используем модель для поиска в БД
+use App\Models\User; 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash; // СВЯЗЬ: Проверяем зашифрованный пароль
+use Illuminate\Support\Facades\Hash; 
 use Illuminate\Validation\ValidationException;
 
 
