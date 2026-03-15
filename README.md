@@ -3,7 +3,7 @@
 Цей проєкт реалізує систему управління користувачами з доступом на основі ролей (**RBAC**). Система розділяє права між трьома типами користувачів: **Root**, **Admin** та **Operator**.
 
 ## 🚀 Технологічний стек
-- **Framework:** Laravel 11
+- **Framework:** Laravel 12
 - **Auth:** Laravel Sanctum
 - **Database:** MySQL
 - **Testing:** PHPUnit (Feature Tests)
