@@ -15,11 +15,11 @@ class User extends Authenticatable
     
     protected $fillable = [
         'name',
-        'username', // Нужно для логина в AuthController
-        'email',    // Нужно для логина в AuthController
-        'phone',    // Нужно для логина в AuthController
+        'username', 
+        'email',    
+        'phone',    
         'password',
-        'role',     // Определяет права доступа в UserController
+        'role',     
     ];
 
    
